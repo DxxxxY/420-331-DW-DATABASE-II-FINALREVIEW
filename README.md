@@ -1,7 +1,23 @@
 # Database II Final Review
 
-## SQL Review (from last year)
-> Not much
+## Table of Contents
+- [SQL Review](#sql-review)
+- [Packages](#packages)
+- [Subprograms](#subprograms)
+- [V-arrays](#v-arrays)
+- [Cursors](#cursors)
+- [Exceptions](#exceptions)
+- [JDBC](#jdbc)
+- [Object Types](#object-types)
+- [Normalization](#normalization)
+- [Triggers](#triggers)
+- [Security](#security)
+- [NoSQL](#nosql)
+
+<div>
+
+## SQL Review
+> From last year. Not much. Just a reminder.
 - Select statements (where, group by, aggregate functions)
 - Indexes and Views
 
