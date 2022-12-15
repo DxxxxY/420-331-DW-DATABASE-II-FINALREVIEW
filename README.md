@@ -68,7 +68,7 @@ END <name>;
 - Must contain (in the right order) all subprograms specified in HEAD.
 - Syntax:
 ```sql
-CREATE [OR REPLACE] PACKAGE  BODY <name> AS
+CREATE [OR REPLACE] PACKAGE BODY <name> AS
 	...
 END <name>;
 ```
@@ -298,7 +298,7 @@ try (CallableStatement cs = conn.prepareCall("{ ? = call getBook(?, ?)}")) {
     cs.execute();  
   
     //get the return value  
-    String result = cs.getString(3);  
+    String result = cs.getString(1);  
 } catch (SQLException e) {  
     throw new RuntimeException(e);  
 }  
